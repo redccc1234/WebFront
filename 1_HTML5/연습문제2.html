@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제2</title>
+</head>
+<body>
+  
+  <form>
+    <fieldset>
+      <legend>납품자 정보</legend>
+      <ol>
+        <li>남품자명 : <input type="text"></li> <br>
+        <li>email : <input type="email"></li> <br> 
+        <li>홈페이지 : <input type="url" placeholder="http://"></li> <br>
+        <li>지역 :
+           <select>
+            <option>부산</option>
+            <option>대전</option>
+            <option>대구</option>
+           </select>
+        </li>
+      </ol>
+
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>납품 정보</legend>
+      <ul>
+        <li>상픔명 : <input type="text"></li> <br>
+        <li>납품수량 : <input type="number" min="100" placeholder="최소 100"></li> <br>
+        <li>납품등급 : <input type="range"></li> <br>
+        <li>기타사항 : <textarea rows="5"></textarea>
+      </ul>
+    </fieldset>
+  </form>
+<br>
+<button>send message</button>
+</body>
+</html>
