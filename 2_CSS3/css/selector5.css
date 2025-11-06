@@ -1,0 +1,31 @@
+#test1 > p:only-child { /* 오직 하나의 자식이 p 태그이냐 , 자식이 한 개만 있어야 함.*/
+  background-color: palegoldenrod;
+}
+
+#test2 > p:only-of-type {
+  background-color: blueviolet;
+}
+
+#test3 > p:empty {
+  background-color: blue;
+  height: 20px;
+}
+
+#test4-1,#test4-2,.test4-3 {
+  background-color: aquamarine;
+  color: purple;
+}
+
+/* #test5-1 후손 중 클래스가 c5인 요소를 선택 */
+#test5-1 .c5 {
+  background-color: deepskyblue;
+}
+
+/* #test5-2인 자식 중 클래스가 c5인 li 요소만 선택 */
+#test5-2 > li.c5 {
+  background-color: deeppink;
+}
+
+.test6.c6 {
+  background-color:dodgerblue;
+}
