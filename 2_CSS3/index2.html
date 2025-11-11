@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cho Yuna Portfolio</title>
+  <link href="/2_CSS3/css/style2.css" rel="stylesheet">
+</head>
+<body>
+
+<main>
+
+  <header>
+    <h1><strong>Cho Yuna</strong></h1>
+    <h3>Web Developer</h3>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education / Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <a href="#">
+      <img src="https://plus.unsplash.com/premium_photo-1723708879915-d54e5fb31aca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880" alt="조윤아 프로필 사진"
+      width=200px height=200px>
+    </a>
+
+    <table id="table1">
+      <tr>
+        <th>이름</th>
+        <td>조윤아</td>
+      </tr>
+      <tr>
+        <th>번호</th>
+        <td>010-9286-9589</td>
+      </tr>
+      <tr>
+        <th>이메일</th>
+        <td>redccc123@naver.com</td>
+      </tr>
+      <tr>
+        <th>주소</th>
+        <td>경기도 부천</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="education">
+    <h3>학력과 교육이력</h3>
+    <table id="table2">
+      <tr>
+        <th width="220px" height="150px" >교육 및 학력사항</th>
+        <td>
+          <ul>
+            <li>홍익대학교 컴퓨터공학과 22학번 졸업</li>
+            <li>kh 정보교육원 Java개발자 양성 과정 수료</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th width="220px" height="150px">보유 기술(기술 스택)</th>
+        <td>
+          <ul>
+            <li>Language : Java,C++</li>
+            <li>Backend : SPRING</li>
+            <li>Frontend : JAVASCRIPT</li>
+            <li>ETC : Git,Android</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th width="220px" height="150px">자격증</th>
+        <td>
+          <ul>
+            <li>정보처리기사(2021.21 취득)</li>
+            <li>DBMA 1급(2022.2 취득)</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  <form action="#" name="form-submit" method="get">
+    <fieldset id="call">
+      <legend>여기로 연락주세요!!</legend>
+      <div class="form-group">
+        <label for="uname">이름</label>
+        <input id="uname" type="text" placeholder="이름">
+      </div>
+      <div class="form-group">
+        <label for="uemail">이메일</label>
+        <input id="uemail" type="email" placeholder="이메일">
+      </div>
+      <div class="form-group">
+        <label for="uphone">전화번호</label>
+        <input id="uphone" type="tel" placeholder="전화번호">
+      </div>
+      <button type="submit">제출</button>
+    </fieldset>
+  </form>
+</footer>
+
+</body>
+</html>
