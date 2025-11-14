@@ -1,0 +1,27 @@
+
+div {
+  width: 400px;
+}
+
+p{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#input-number{
+  width: 30px;
+  border-radius: 0.2%;
+}
+#input-color {
+  width: 100px;
+  border-radius: 0.2%;
+
+}
+
+#box{
+  width: 400px;
+  height: 100px;
+  border-radius: 0.2px;
+
+}
+
